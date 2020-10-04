@@ -634,6 +634,7 @@ def counts_per_document_type(data, doctype):
     plt.savefig(os.path.join(dir_path, 'plots', 'doctype.pdf'), bbox_inches="tight")
 
 
+
 def with_hue(plot, feature, Number_of_categories, hue_categories):
     a = [p.get_height() for p in plot.patches]
     patch = [p for p in plot.patches]
